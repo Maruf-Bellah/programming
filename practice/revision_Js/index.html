@@ -13,22 +13,46 @@
     <br>
     <p id="demo"></p>
 
-    <p id="text"></p>
+    <p id="me"></p>
     <!-- <script src="/revision_Js/oneDay.js"></script> -->
 
     <script>
 
 
 
-let one = ('*')
-for(let i = 0; i < 5 ; i++){
-    for(let j = 0; j < i; j++){
-        one += i + ('*')
-    }
-    console.log(one);
-}
+// let one = ('*')
+// for(let i = 0; i < 5 ; i++){
+//     for(let j = 0; j < i; j++){
+//         one += i + ('*')
+//     }
+//     console.log(one);
+// }
 // console.log(one);
 
+
+// let two = '';
+// for(let i = 5; i > 0 + " "; i-- + " "){
+//     for(let j = 5; j > i + " "; j-- + " "){
+//         two += i
+//         console.log(two + " ");
+//     }
+// }   
+
+
+let two = '';
+for(let i = 1; i <= 5; i++){
+    for(let j = 0; j < i; j--){
+        two +=" ";
+        for(let m = 0; m < j ; m++){
+            
+            two += i;
+        }
+        // two+= i
+    }
+    two +="\*" 
+    // console.log(two);
+    console.log(two);
+}
 
 
     </script>
