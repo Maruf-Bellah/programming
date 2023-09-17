@@ -1,0 +1,9 @@
+.country{
+    background-color: rgb(194, 212, 219);
+    border-radius: 10px;
+}
+
+.country img{
+    width: 300px;
+    height: 200px;
+}
