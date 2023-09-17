@@ -16,6 +16,8 @@
     <p id="me"></p>
     <!-- <script src="/revision_Js/oneDay.js"></script> -->
 
+    <input type="text" id="text"> <button onclick="myFunction2()">Click here</button>
+
     <script>
        
 
@@ -91,8 +93,17 @@
         // }
    
 
-        for(let i =1; i <=5; i++){
-            for(let j =5; j > i; j--){
+        
+
+        function myFunction2(){
+            const a = document.getElementById('text').value;
+
+          if(String == a){
+                alert('this string')
+            }
+            else{
+                for(let i =1; i <=a; i++){
+            for(let j =a; j > i; j--){
                 document.write(' &nbsp; ')
             }
             for(let k =1; k <= ((2* i)-1); k++){
@@ -100,10 +111,8 @@
             }
                 document.write('<br>')
         }
-
-
-        for(let i =5; i >=1; i--){
-            for(let j = 5; j >i; j--){
+        for(let i =a; i >=1; i--){
+            for(let j = a; j >i; j--){
                 document.write(' &nbsp; ')
             }
             for(let k=1; k <=((i*2)-1); k++){
@@ -111,10 +120,18 @@
             }
                 document.write('<br>')
         }
-     
+
+            }
+        
+
+    
+        }
+     myFunction()
       
 
     </script>
+
+    <script src="./oneDay.js"></script>
 
 </body>
 </html>

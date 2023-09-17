@@ -33,6 +33,7 @@ function myFunction(){
 
     for(let i = lastNum; i <= chooseNum; i++){
         document.write(`${i} er Namota`+ "<br>")
+        document.write(" ")
     for(let j = 1; j <= 10; j++){
             number = (`${i} * ${j} =  ${j * i}`)+ "<br>";
             document.write(number)
@@ -61,7 +62,7 @@ function myFunction(){
 
     for(let i = 5; i > 0 ; i--){
         for(let j = 5; j > i; j--){
-            console.log(i);
+            // console.log(i);
            show1 -= ('*')
             // console.log(i);
             // document.getElementById('text').innerHTML = show;
